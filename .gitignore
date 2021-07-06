@@ -1,0 +1,10 @@
+# Build files
+build/
+
+# Caches
+.cache/
+.zig-cache/
+
+# Outputs
+zig-out/
+

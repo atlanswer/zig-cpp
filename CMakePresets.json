@@ -1,0 +1,18 @@
+{
+  "version": 4,
+  "configurePresets": [
+    {
+      "name": "zig",
+      "generator": "Ninja",
+      "toolchainFile": "zig.cmake",
+      "binaryDir": "build",
+      "installDir": "zig-out",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      },
+      "environment": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "true"
+      }
+    }
+  ]
+}
